@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Script/Client.js"></script>
+    <link rel="stylesheet" href="Style/Index.css">
+    <title>Analise</title>
+</head>
+<style>
+    main{
+        width: 100%;
+        height: 100vh;    
+    }
+    #Imagen_para_Analisar{
+        background-color: rgb(221, 221, 221);
+        width: 50vh;
+        height: 50vh;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 20px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }   
+    h1{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+     
+    }
+    button{
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        
+    }
+</style>
+<body onload="(Start())">
+    <main>
+        <section id="Imagen_para_Analisar"></section>
+        <h1 id="Nota">Nota: </h1>
+        <button onclick="Reset()">Resetar</button>
+    </main>
+</body>
+<script src="Script/Server.js"></script>
+</html>

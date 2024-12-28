@@ -1,0 +1,19 @@
+{
+  "name": "art_note",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "electron .",
+    "export": "electron-packager . --out=exe"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^33.2.1"
+  },
+  "dependencies": {
+    "universal-code": "^1.0.1"
+  }
+}
