@@ -43,14 +43,12 @@ Resumindo, é ele quem cuida de todas as partes mais simples do projeto.
 
  # Como iniciar o projeto?
 
-use o comando **npm run export**
+use o comando `npm run export`
 para exportar o projeto
-
 Depois disso abra a pasta chamada exe 
-
 Vá até o arquivo e procure o Executável 
 Com o nome de Art tips
-
+agora se quiser melhorar o projeto use o Comando `npm run dev`
 
 # Extra
 
